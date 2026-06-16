@@ -1,0 +1,15 @@
+numbers = [1, 2, 3, 4, 5, 6]
+result = list(filter(lambda x: x % 2 == 0, numbers)) # only even
+print(result)  # [2, 4, 6]
+
+numbers = [-3, -1, 0, 2, 5]
+result = list(filter(lambda x: x > 0, numbers)) # only positive
+print(result)  # [2, 5]
+
+numbers = [5, 12, 7, 18, 3]
+result = list(filter(lambda x: x > 10, numbers)) # only higher than 10
+print(result)  # [12, 18]
+
+numbers = [3, 4, 6, 8, 9, 10]
+result = list(filter(lambda x: x % 3 == 0, numbers)) # only divisible by 3
+print(result)  # [3, 6, 9]
